@@ -1,7 +1,7 @@
 easy_theme
 ==========
 
-Easy Theme for Elgg 1.8.6+    
+Easy Theme for Elgg 1.8.6+  and Elgg 1.9   
 
 
    ![Examples](http://www.jubo.co.uk/wp-content/themes/jubo/img/easyt.png)
