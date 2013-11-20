@@ -41,10 +41,5 @@
 		<plugin>thewire</plugin>
 	</requires>
 	
-	<suggests>
-		<type>plugin</type>
-		<name>profile</name>
-		<version>1.8</version>
-	</suggests>
        
 </plugin_manifest>

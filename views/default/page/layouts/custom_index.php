@@ -30,28 +30,7 @@ echo elgg_view_module('featured',  '', $top_box, $mod_params);
 
 // a view for plugins to extend
 echo elgg_view("index/lefthandside");
-
-// files
-if (elgg_is_active_plugin('file')) {
-	echo elgg_view_module('featured',  elgg_echo("custom:files"), $vars['files'], $mod_params);
-}
-
-// blogs
-if (elgg_is_active_plugin('blog')) {
-	echo elgg_view_module('featured',  elgg_echo("custom:blogs"), $vars['blogs'], $mod_params);
-}
-
-// groups
-if (elgg_is_active_plugin('groups')) {
-	echo elgg_view_module('featured',  elgg_echo("custom:groups"), $vars['groups'], $mod_params);
-}
 ?>
-
-		</div>
-	</div>
-	<div class="elgg-col elgg-col-1of2">
-		<div class="elgg-inner pvm">
-
 
 <div class="et-module-message">
 <?php include elgg_get_data_path() . "easytheme/intro.php"; ?> 
@@ -60,12 +39,39 @@ if (elgg_is_active_plugin('groups')) {
 
 <?php
 
+// groups
+if (elgg_is_active_plugin('groups')) {
+	echo elgg_view_module('featured',  elgg_echo("custom:groups"), $vars['groups'], $mod_params);
+}
+
+// files
+if (elgg_is_active_plugin('file')) {
+	echo elgg_view_module('featured',  elgg_echo("custom:files"), $vars['files'], $mod_params);
+}
+
+
+?>
+
+		</div>
+	</div>
+	<div class="elgg-col elgg-col-1of2">
+		<div class="elgg-inner pvm">
+
+
+
+
+<?php
+
 // a view for plugins to extend
 echo elgg_view("index/righthandside");
 
-// files
+// members
 echo elgg_view_module('featured',  elgg_echo("custom:members"), $vars['members'], $mod_params);
 
+// blogs
+if (elgg_is_active_plugin('blog')) {
+	echo elgg_view_module('featured',  elgg_echo("custom:blogs"), $vars['blogs'], $mod_params);
+}
 // bookmarks
 if (elgg_is_active_plugin('bookmarks')) {
 	echo elgg_view_module('featured',  elgg_echo("custom:bookmarks"), $vars['bookmarks'], $mod_params);

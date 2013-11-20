@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Georgia, times, serif;
 	text-shadow: 1px 2px 4px #333333;
 	text-decoration: none;
-  background: #fff;
+   background: #fff;
 	padding: 20px;
 	padding-left: 15px;
 }
@@ -158,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 .elgg-page-default .elgg-page-header  .elgg-inner {
 	width: $etpgwidth;
 	height: $etheadh;
-  background: $et_headimg;
+   background: $et_headimg;
 }
 
 .elgg-page-default {
@@ -186,8 +186,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elgg-page-footer {
-  color: $etfoottext; 
-  background: $etfootbk;   
+       color: $etfoottext; 
+       background: $etfootbk;   
 }
 .elgg-page-footer a:link {
 	color: $etfootlink;
@@ -198,16 +198,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elgg-menu-item-report-this{
-  margin-left: 10px;
+        margin-left: 10px;
 	margin-top: 5px;
 }
-
-.elgg-menu-item-powered {
-  visibility:hidden;
-}
-
-
-
 
 #login-dropdown {
 	position: absolute;
@@ -237,13 +230,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elgg-page-header .elgg-search {
-  margin-top: $etsearch;
+        margin-top: $etsearch;
 	margin-bottom: 2px;
-  margin-right: 5px;
+        margin-right: 5px;
 	height: 23px;
 	position: absolute;
-	right: 0;
-       
+	right: 0;       
+}
+
+.elgg-menu-item-powered {
+visibility: hidden;
 }
 
 .elgg-menu-footer-default {
@@ -260,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 
 fwrite($fileHandle, $data);
  
-fclose($fileHandle); // close the file
+fclose($fileHandle); // close the file since we're done
 
 if (empty($etintro)) {
 	}
