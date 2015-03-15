@@ -177,7 +177,7 @@ echo elgg_view('input/text', array(     'name' => 'params[etmod]',
                                         'class' => 'easytheme', ) ); 
 
 
-echo "<br /><br /><p>[19] <strong> To Replace the site name with a Logo image</strong> <em>(optional)</em>:<br />~ Save your logo in 'mod/easytheme/graphics' <br /> ~ Open the file 'mod/easytheme/views/default/page/elements/header_logo.php'<br /> ~ Remove the 'h1' tags, and everything in between.<br /> ~ Replace with the code for your logo image.<br /> ~ Save the file.</p><br /><p>[20] <strong>To change the Favicon icon</strong> <em>(optional)</em>: Swap your sites icon with the elgg favicon icon in <strong>'mod/easytheme/graphics'</strong></p><br /><br /><p>[21] <strong>Site Introduction</strong> Write a short introduction to your site - <em>(This will appear at the top of the custom index page.  Be careful to copy/paste from a text file - otherwise it's easy to paste unwanted mark-up into the box.)</em></p>";
+echo "<br /><br /><p>[19] <strong> To Replace the site name with a Logo image</strong> <em>(optional)</em>:<br />~ Save your logo in 'mod/easytheme/graphics' <br /> ~ Open the file 'mod/easytheme/views/default/page/elements/header_logo.php'<br /> ~ Remove the 'h1' tags, and everything in between.<br /> ~ Replace with the code for your logo image.<br /> ~ Save the file.</p><br /><p>[20] <strong>Site Introduction</strong> Write a short introduction to your site - <em>(This will appear at the top of the custom index page.  Be careful to copy/paste from a text file - otherwise it's easy to paste unwanted mark-up into the box.)</em></p>";
 
 $myFile = elgg_get_data_path() . "easytheme/intro.php";
 $fh = fopen($myFile, 'r');

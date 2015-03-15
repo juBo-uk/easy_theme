@@ -12,7 +12,7 @@ $etmod = elgg_get_plugin_setting('etmod','easytheme');
 
 .custom-index {
 	padding: 20px;
-  padding-top: 10px;
+        padding-top: 10px;
 }
 
 
@@ -66,8 +66,8 @@ $etmod = elgg_get_plugin_setting('etmod','easytheme');
 }
 
 .elgg-module-featured > .elgg-body{
-  padding: 0px;
-  padding-bottom: 10px;       
+        padding: 0px;
+        padding-bottom: 10px;       
        
 }
 

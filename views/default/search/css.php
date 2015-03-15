@@ -9,13 +9,13 @@
 Search plugin
 ***********************************/
 .elgg-page-header .elgg-search {
-  margin-top: 238px;
+        margin-top: 238px;
 	margin-bottom: 5px;
-  margin-right: 5px;
+        margin-right:5px;
 	height: 23px;
 	position: absolute;
 	right: 0;
-	z-index: 5;
+	z-index:5;
        
 }
 .elgg-page-header .elgg-search input[type=text] {
