@@ -217,16 +217,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .elgg-page-default .elgg-page-body > .elgg-inner {
 	width: $etpgwidth;
-	margin: 0 auto;        
-	
+	margin: 0 auto;
+}
+
+.elgg-page-body{
+	padding: 0px 0px; 
 }
 
 .elgg-page-default .elgg-page-footer > .elgg-inner {
 	width: $etpgwidth; 
 	margin: 0 auto;
 	padding: 5px 0;
-	border-top: 1px solid #DEDEDE;
-	
+	border-top: 1px solid #dedede;	
 }
 
 .elgg-page-header .elgg-search {
